@@ -1,0 +1,1 @@
+obj.registrar(['Nome: ','Serie: ','Ano de Ingresso: ','Turno: ','Cpf: ','RG: ','Sexo: ','Data de Nascimento: ','Nome da Mae: ','Nome do Pai: ','Email: ','Telefone: ','Cep: ','Rua: ','N: ','Complemento: ','Bairro: ','Cidade: ','Estado: ','Pais: '])
