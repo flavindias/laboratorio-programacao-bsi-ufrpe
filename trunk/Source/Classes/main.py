@@ -124,6 +124,7 @@ class Menu:
         self.menuCabecalho(self.logado,'MENU PRINCIPAL')
         print 'OPCAO 1 - GERENCIAR FUNCIONARIOS'
         print 'OPCAO 2 - GERENCIAR PRODUTOS\n'
+        print 'OPCAO 9 - VOLTAR A TELA DE LOGIN'
         print 'OPCAO 0 - SAIR\n'
         self.__opcao = raw_input('DIGITE A OPCAO DESEJADA: ')
         if self.__opcao == '0':
@@ -132,6 +133,8 @@ class Menu:
             return self.menuFuncionarios()
         elif self.__opcao == '2':
             return self.menuProdutos()
+        elif self.__opcao == '9':
+            return self.menuLogarLogin()
         else:
             self.__msg = raw_input('\nOPCAO INVALIDA. \nPRESSIONE ENTER PARA TENTAR NOVAMENTE.')
             return self.menuPrincipal()
